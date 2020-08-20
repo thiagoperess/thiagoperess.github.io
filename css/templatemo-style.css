@@ -133,6 +133,11 @@ a.tm-text-white:focus {
     font-weight: bol;
 }
 
+.tm-text-new5 {
+    color: rgb(45, 148, 189);
+    font-weight: bol;
+}
+
 .tm-text-yellow {
     color: #FFFFFF;
     font-weight: bolder
@@ -196,7 +201,7 @@ hr {
     height: 60px;
     width: 3px;
     background-color: #616060;
-    margin-left: 210px;
+    margin-left: 250px;
 }
 
 .tm-timeline-description {
