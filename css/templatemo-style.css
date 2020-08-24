@@ -138,6 +138,11 @@ a.tm-text-white:focus {
     font-weight: bol;
 }
 
+.tm-text-new6 {
+    color: rgb(20, 10, 110);
+    font-weight: bol;
+}
+
 .tm-text-yellow {
     color: #FFFFFF;
     font-weight: bolder
