@@ -196,6 +196,13 @@ hr {
     margin: center;
 }
 
+.tm-img-timeline3 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;    
+}
+
 .tm-timeline-connector {
     width: 55px;
     height: 3px;
