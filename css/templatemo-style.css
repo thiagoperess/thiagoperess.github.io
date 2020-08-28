@@ -379,10 +379,10 @@ p {
         max-width: 540px;
     }
     .tm-video-text-overlay {
-        left: 20%;
+        left: 12%;
     }
     .tm-video-text-overlay h1 {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
 }
 
