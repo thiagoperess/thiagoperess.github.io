@@ -396,3 +396,8 @@ p {
         max-width: 125%;
     }
 }
+
+
+.tm-video-iframe {
+    height: auto;
+}
