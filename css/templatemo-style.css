@@ -259,6 +259,15 @@ p {
     }
 }
 
+.tm-video-text-overlay h1 {
+    font-size: 2.8rem;
+}
+
+.tm-timeline-item {
+    margin-left: 90px;
+}
+
+
 @media (max-width: 584px) {
     .tm-timeline-item-inner {
         flex-direction: column;
