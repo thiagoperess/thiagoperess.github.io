@@ -322,7 +322,7 @@ p {
 
 .tm-video-text-overlay {
     position: absolute;
-    left: 50%;
+    left: 32%;
     bottom: 150px;
 }
 .tm-video-text-overlay h1 {
