@@ -94,6 +94,11 @@ a.tm-text-white:focus {
     font-weight: bol;
 }
 
+.tm-text-new10 {
+    color: rgb(255, 218, 9);
+    font-weight: bol;
+}
+
 .tm-text-yellow {
     color: #FFFFFF;
     font-weight: bolder
