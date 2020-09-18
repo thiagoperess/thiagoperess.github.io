@@ -6,18 +6,52 @@ http://thiagoperess.github.io
 
 */
 
+
+html {
+    zoom: 0.9;
+}
+
 body {
-    background-color: #333333;
+    background-color: #fdf8f8;
     color: #FFFFFF;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 300;
     overflow-x: hidden;
+    text-align: left;
+    
+}
+
+body h1 {
+    padding: 0px 170px;
+    margin-top: -100px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    font-family: OCR A Std, monospace;
+    font-weight: bolder;
+}
+
+body h3 {
+    color: #FFFFFF;
+}
+
+body h6 {
+    color: #000000;
+}
+
+body p {
+    color: #FFFFFF;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-weight: bolder;
 }
 
 header {
-    color: #FFFFFF;
-    font-family: 'Cambria', fantasy;
-    font-weight: 300;
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
 }
 
 .tm-site-title {
@@ -36,6 +70,8 @@ header {
     margin-top: 65px;
     margin-bottom: 65px;
     font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
 }
 
 .tm-font-400 {
@@ -47,7 +83,8 @@ header {
 }
 
 .tm-text-gray {
-    color: #FFFFFF;
+    color: #050505;
+    font-weight: bold;
 }
 
 .tm-text-white {
@@ -99,6 +136,16 @@ a.tm-text-white:focus {
     font-weight: bol;
 }
 
+.tm-text-new12 {
+    color: cornflowerblue;
+    font-weight: bol;
+}
+
+.tm-text-new13 {
+    color: rgb(109, 149, 223);
+    font-weight: bol;
+}
+
 .tm-text-yellow {
     color: #FFFFFF;
     font-weight: bolder
@@ -141,6 +188,8 @@ hr {
     height: 150px;
     display: inline-block;
     vertical-align: middle;
+    border: 3px solid black;
+    margin-left: 15px;
 }
 
 .tm-img-timeline2 {
@@ -255,6 +304,10 @@ p {
     line-height: 1.9;
 }
 
+footer p {
+    text-align: center;
+}
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1310px;
@@ -322,7 +375,7 @@ p {
 
 .tm-video-text-overlay {
     position: absolute;
-    left: 32%;
+    left: 18%;
     bottom: 150px;
 }
 .tm-video-text-overlay h1 {
