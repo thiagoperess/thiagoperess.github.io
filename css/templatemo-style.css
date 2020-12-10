@@ -26,16 +26,13 @@ img {
 }
 
 h1 {
-    padding: 0px 170px;
-    margin-top: 0px;
-    margin-bottom: 40px;
     align-items: center;
     font-family: OCR A Std, monospace;
     font-weight: bolder;
 }
 
 h5 {
-    margin-top: -20px;
+    margin-top: -10px;
     font-family: cursive;
 }
 
@@ -185,7 +182,7 @@ hr {
 }
 
 .tm-timeline-item {
-    margin-left: 70px;
+    margin: auto;
 }
 
 .tm-timeline-item-inner {
@@ -197,9 +194,7 @@ hr {
     width: 150px;
     height: 150px;
     display: inline-block;
-    vertical-align: middle;
     border: 3px solid black;
-    margin-left: 15px;
 }
 
 .tm-img-timeline2 {
