@@ -1,11 +1,5 @@
-/*
-
-Thiago Peres Schweitzer 
-
-http://thiagoperess.github.io
-
-*/
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 html {
     zoom: 0.9;
@@ -26,14 +20,18 @@ img {
 }
 
 h1 {
+    margin-top: 5px;
     align-items: center;
-    font-family: OCR A Std, monospace;
     font-weight: bolder;
+    font-family: 'Special Elite', cursive;
+    font-size: 6.5vh;
 }
 
 h5 {
     margin-top: -10px;
-    font-family: cursive;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.2vh;
+    font-weight: bold;
 }
 
 body h3 {
@@ -42,6 +40,9 @@ body h3 {
 
 body h6 {
     color: #000000;
+    text-align: justify;
+    font-size: 2.3vh;
+    
 }
 
 body p {
@@ -53,6 +54,7 @@ h2 {
     text-align: center;
     font-weight: bolder;
 }
+
 
 header {
     color: #000000;
@@ -73,20 +75,14 @@ header {
     margin-bottom: 0;
 }
 
-.tm-welcome-text {
-    margin-top: 65px;
-    margin-bottom: 65px;
-    font-size: 1.6rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-}
-
 .tm-font-400 {
     font-weight: 400;
 }
 
-.tm-text-light-gray {
-    color: #CDCDCD;
+.tm-text-gray2 {
+    color: #050505;
+    font-weight: bold;
+    font-size: 2.7vh;
 }
 
 .tm-text-gray {
@@ -94,13 +90,10 @@ header {
     font-weight: bold;
 }
 
-.tm-text-white {
-    color: #FFFFFF;
-}
-
-a.tm-text-white:hover,
-a.tm-text-white:focus {
-    color: #FFFFFF;
+.tm-text-gray:hover {
+    color: #ee0000;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .tm-text-green {
@@ -108,49 +101,43 @@ a.tm-text-white:focus {
     font-weight: bolder
 }
 
+.tm-text-green:hover {
+    color: #00ffd0;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 .tm-text-cyan {
     color: #7e26b1;
     font-weight: bolder
 }
 
-.tm-text-new2 {
-    color: tomato;
-    font-weight: bol;
-}
-
-.tm-text-new3 {
-    color: orange;
-    font-weight: bol;
-}
-
-.tm-text-new4 {
-    color: rgb(50, 170, 50);
-    font-weight: bol;
-}
-
-.tm-text-new5 {
-    color: rgb(45, 148, 189);
-    font-weight: bol;
-}
-
-.tm-text-new6 {
-    color: rgb(16, 9, 80);
-    font-weight: bol;
+.tm-text-cyan:hover {
+    color: #d58dff;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 .tm-text-new10 {
-    color: rgb(255, 218, 9);
-    font-weight: bol;
+    color: rgb(255, 227, 65);
+    font-weight: bolder;
 }
 
-.tm-text-new12 {
-    color: cornflowerblue;
-    font-weight: bol;
+.tm-text-new10:hover {
+    color: rgb(158, 136, 9);
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 .tm-text-new13 {
     color: rgb(109, 149, 223);
-    font-weight: bol;
+    font-weight: bolder;
+}
+
+.tm-text-new13:hover {
+    color: rgb(65, 101, 169);
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 .tm-text-yellow {
@@ -158,14 +145,21 @@ a.tm-text-white:focus {
     font-weight: bolder
 }
 
+.tm-text-yellow:hover {
+    color: #acacac;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 .tm-text-orange {
     color: #000000;
     font-weight: bolder
 }
 
-.tm-text-new {
-    color: #314cc4;
-    font-weight: bolder
+.tm-text-orange:hover {
+    color: #2e2d2d;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 .tm-bg-dark {
@@ -240,79 +234,13 @@ hr {
     margin-top: 85px;
 }
 
-.tm-contact-form {
-    max-width: 500px;
-}
-
-.form-control {
-    border-radius: 0;
-    border-color: #666666;
-	color: #CCC;
-    background: transparent;
-    padding: 12px 15px;
-}
-
-.form-control::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #CCCCCC;
-    opacity: 1;
-    /* Firefox */
-}
-
-.form-control:-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    color: #DDDDDD;
-}
-
-.form-control::-ms-input-placeholder {
-    /* Microsoft Edge */
-    color: #DDDDDD;
-}
-
-iframe {
-    max-width: 100%;
-}
-
-#google-map {
-    max-width: 500px;
-    width: 100%;
-    height: 300px;
-}
-
-.tm-btn-send {
-    border-radius: 0;
-    font-size: 1.1rem;
-    padding: 12px 50px;
-    background: transparent;
-    border: 1px solid #CCCCCC;
-    color: #CCCCCC;
-}
-
-.tm-btn-send:hover,
-.tm-btn-send:focus {
-    background: #CCCCCC;
-    color: #333333;
-}
-
-.form-control:focus {
-    background-color: transparent;
-    border-color: #CCCCCC;
-	color: #FFF;
-    box-shadow: 0 0 0 0.2rem #cccccc14;
-}
-
-input,
-textarea,
-[contenteditable] {
-    caret-color: #FFFFFF;
-}
-
 p {
     line-height: 1.9;
 }
 
 footer p {
     text-align: center;
+    font-size: 2.8vh;
 }
 
 @media (min-width: 1200px) {
