@@ -3,6 +3,7 @@
 
 html {
     zoom: 0.9;
+    overflow-x: hidden;
 }
 
 body {
