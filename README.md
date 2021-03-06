@@ -1,3 +1,3 @@
-# My Personal Home Page 
+# My Personal Home Page
 
-Esta é minha primeira página no ar! Foi um trabalho simples, mas que pude aprender conceitos básicos que irão me guiar daqui pra frente em futuros projetos! Também mantenho ela como minha página pessoal para contatos e venho fazendo melhoramentos no layout pontualmente.
+This was my first project on the air. The static page. ** HTML **, ** CSS ** and ** Bootstrap ** were used for its development. Since the first version, I have been making some edits to improve your look. It contains some important information of mine, such as my social networks, contact, my portfolio as projects that I developed, and certificates obtained in my learning journey.
