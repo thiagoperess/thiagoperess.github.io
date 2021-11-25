@@ -119,12 +119,12 @@ header {
 }
 
 .tm-text-new10 {
-    color: rgb(255, 227, 65);
+    color: rgb(255, 94, 65);
     font-weight: bolder;
 }
 
 .tm-text-new10:hover {
-    color: rgb(158, 136, 9);
+    color: rgb(158, 74, 9);
     font-weight: bolder;
     text-decoration: none;
 }
@@ -248,7 +248,7 @@ footer p {
     position:relative;
     top:.1em;
     font-size:1.8em;
-    color:#00FFFF;
+    color:#ff0000;
     transform:scale(.9);
     animation:love .5s linear infinite alternate-reverse;
    }
