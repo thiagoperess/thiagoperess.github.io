@@ -108,12 +108,12 @@ header {
 }
 
 .tm-text-cyan {
-    color: #7e26b1;
+    color: #bf8b2c;
     font-weight: bolder
 }
 
 .tm-text-cyan:hover {
-    color: #d58dff;
+    color: #ed9418;
     font-weight: bolder;
     text-decoration: none;
 }
@@ -130,12 +130,12 @@ header {
 }
 
 .tm-text-new13 {
-    color: rgb(109, 149, 223);
+    color: rgb(81, 241, 239);
     font-weight: bolder;
 }
 
 .tm-text-new13:hover {
-    color: rgb(65, 101, 169);
+    color: rgb(34, 237, 255);
     font-weight: bolder;
     text-decoration: none;
 }
@@ -152,7 +152,7 @@ header {
 }
 
 .tm-text-orange {
-    color: #000000;
+    color: #fff;
     font-weight: bolder
 }
 
